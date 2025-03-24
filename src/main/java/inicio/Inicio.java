@@ -21,6 +21,8 @@ public class Inicio
         Ejecutable ejecutable = null;
         Historiales historiales = null;
         historiales = Historial.getInstance( );
+
+        System.out.println("Hola Emmanuel");
         while( flag )
         {
             ejecutable = null;
